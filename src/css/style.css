@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: Manrope;
+    font-size: 18px;
+    color: white;
+    background: var(--Cor-de-fundo);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-advice {
+    background: var(--Cor-do-card);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 480px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.container-advice .title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--Cor-do-botão-do-card-e-do-texto);
+    word-spacing: 5px;
+}
+
+.container-advice .container-paragraph {
+    align-self: center;
+    width: 90%;
+    margin: 15px;
+}
+
+.container-advice .container-paragraph p {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container-advice .mobile-desktop {
+    text-align: center;
+}
+
+.container-advice 
+.mobile-desktop 
+.img-divider {
+    width: 90%;
+}
+
+.container-advice .button {
+    margin: auto;
+    background-color: var(--Cor-do-botão-do-card-e-do-texto);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.container-advice .button:hover {
+    cursor: pointer;
+    box-shadow: 0 0px 15px var(--Cor-do-botão-do-card-e-do-texto);
+}
